@@ -107,7 +107,7 @@ const Canvas = () => {
           float area1 = smoothstep(0.3,0.,vUv.y);
           area1 = pow(area1,4.);
           float noise = 0.5*(cnoise(vec3(vUv*10.,time/5.)) + 1.);
-          float n = smoothstep(0.5,0.51, noise + area);
+          float n = smoothstep(0.5,0.52, noise + area);
           newUV.x -= (vUv.x - 0.5)*0.2*area1;
           //gl_FragColor = texture2D( tDiffuse, newUV);
           //gl_FragColor = vec4(area1,0.,0.,1.);

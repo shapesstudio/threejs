@@ -32,7 +32,7 @@ export default function Home() {
         </Link>
       </section>
 
-      <div className="grid gap-7 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-6">
+      <div className="grid gap-7 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-6 p-5">
         <img
           className="w-full aspect-video"
           height="400"
